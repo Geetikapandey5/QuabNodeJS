@@ -1,0 +1,57 @@
+/* Reset default margin and padding, set background color */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Styling for the header */
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Styling for the main content area */
+main {
+    padding: 2rem;
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+/* Styling for table headers and cells */
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+/* Styling for table header cells */
+th {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+/* Alternate row background color */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Styling for the logo image */
+.fiat-logo {
+    max-width: 100%; /* Ensures the image doesn't exceed its original width */
+    height: auto; /* Allows the image to scale proportionally */
+    padding: 10px;
+}
